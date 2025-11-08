@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Registration - WERS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Register for an Event</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="participants.html">Participants</a>
+    </nav>
+  </header>
+
+  <section>
+    <form id="registrationForm">
+      <label>Full Name:</label>
+      <input type="text" id="name" required>
+
+      <label>Email:</label>
+      <input type="email" id="email" required>
+
+      <label>Select Event:</label>
+      <select id="event" required>
+        <option value="">-- Choose Event --</option>
+        <option value="Tech Talk 2025">Tech Talk 2025</option>
+        <option value="CodeFest">CodeFest</option>
+        <option value="AI & ML Workshop">AI & ML Workshop</option>
+      </select>
+
+      <button type="submit" class="btn">Submit Registration</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 WERS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
